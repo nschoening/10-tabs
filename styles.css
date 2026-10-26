@@ -1,0 +1,55 @@
+html{
+    background-color: pink;
+}
+
+code{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.site-header{
+    background-color: rgb(255, 135, 92);
+    color: (252, 244, 244);
+    border-radius: 20px 20px 0 0;
+    padding: 20px 20px 0 20px;
+}
+
+.site-main{
+    background-color: rgb(252, 244, 244);
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+}
+
+.site-nav{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.nav-link{
+    background-color: rgb(226, 88, 49);
+    display: block;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.site-nav li{
+    flex: 1 1 0;
+}
+
+.nav-link;:hover{
+    background-color: rgb(255, 174, 75);
+}
+
+.current-page{
+    background-color: rgb(252, 244, 244);
+}
